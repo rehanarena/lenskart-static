@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Mulish'sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+
+.fnav input{
+    width: 300px;
+    height: 27px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0,66, 0.5);
+    margin-top: 22px;
+    
+}
+.fnav p{
+    margin-top: 17px;
+    font-size: 17px;
+}
+.fnav p:hover{
+    color: rgba(42, 189,94);
+    cursor: pointer;
+}
+.snav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.snav p:hover{
+    border-bottom: 2px solid rgba(192,81,41);
+    color: rgb(197, 33, 33);
+    cursor: pointer;;
+}
+.snav .Headerimage{
+    width: 5%;
+    height: 30px;
+}
+
+.lens{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.lens p{
+    margin-top: 17px;
+    font-size:17px ;
+}
+.lens img{
+    width: 18%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.main-body img {
+    width: 100%;
+}
+.main-body2 img{
+    width:100%;
+}
+.bannerforexploreimg{
+    width: 100%;
+}
+.wearthetrend{
+    text-align: center;
+    padding: 32px;
+}
+.cart{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+.cart.card{
+    text-align: center;
+}
+.cart button{
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: rgb(52,180,180);
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.cart button:hover{
+    color: black;
+    cursor: pointer;
+}
+.card p{
+    font-size: 16px;
+    text-align: center;
+}
+.cart .card image{
+    width: 65%;
+}
+.banner h2{
+    text-align: center;
+    padding: 32px;
+}
+.banner1 h2{
+    text-align: center;
+    padding: 32px;
+}
+.banner img{
+    width: 100%;
+}
+.banner1 img{
+    width: 50%;
+}
+.banner1 .two-image{
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    
+}
+.banner1.two-image{
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    padding: 50px;
+    padding-bottom: 20px;
+    
+}
+
+.footer{
+    display:flex;
+    height: 250px;
+    width: 93%;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgba(26, 26, 84);
+    color: white;
+    padding: 43px;
+    padding-bottom: 20px;
+}
+
+.footer ul{
+list-style: none;
+}
+.banner2{
+    background-color: #fff092;
+    text-align: center;
+    padding-bottom: 20px;
+    height: 500px;
+}
+
+
